@@ -1,0 +1,27 @@
+simple steps u have to done before run the file:
+
+
+1.open your command prompt ,then type --->
+
+Rails new UPLOAD
+
+2.then type -->
+
+cd UPLOAD
+
+gem install carrierwave
+
+gem install bootstrap-sass  
+
+rails g model Resume name:string attachment:string  
+rake db:migrate  
+rails g controller Resumes index new create destroy  
+rails g uploader attachment 
+
+3. After this u have to copy the files from https://github.com/kinGshaifat/file-uploading.git  to ur  folder
+
+4. then type in command prompt --->
+
+Rails server
+
+5. now ,open chrome ,,,, and enjoy ur uploading.
